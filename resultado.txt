@@ -1,0 +1,13 @@
+=== VERIFICADOR DE SIMILARIDADE ===
+Documentos processados: 3
+Comparações realizadas: 3
+
+Pares com similaridade >= 0.2
+-----------------------------
+doc1.txt <-> doc2.txt = 0.37
+
+Rotações AVL:
+Left: 0
+Right: 0
+Double Left: 0
+Double Right: 0
