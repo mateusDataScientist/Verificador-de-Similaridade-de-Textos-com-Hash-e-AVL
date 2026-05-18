@@ -29,25 +29,23 @@ public class HashTable {
         }
     }
 
-    // Primeira função hash
     private int hash1(String key) {
 
         int hash = 0;
 
         for (char c : key.toCharArray()) {
-            hash = (31 * hash + c) % size;
+            hash = hash * 31 + c;
         }
 
-        return Math.abs(hash);
+        return Math.abs(hash % size);
     }
 
-    // Segunda função hash
     private int hash2(String key) {
 
-        int hash = 7;
+        int hash = 0;
 
         for (char c : key.toCharArray()) {
-            hash = hash * 37 + c;
+            hash += c;
         }
 
         return Math.abs(hash % size);

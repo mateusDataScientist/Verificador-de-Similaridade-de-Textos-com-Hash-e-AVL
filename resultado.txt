@@ -2,9 +2,8 @@
 Documentos processados: 3
 Comparações realizadas: 3
 
-Pares com similaridade >= 0.2
------------------------------
-doc1.txt <-> doc2.txt = 0.37
+Comparando: doc1.txt <-> doc2.txt
+Similaridade: 0.37
 
 Rotações AVL:
 Left: 0
